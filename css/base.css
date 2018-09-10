@@ -5,7 +5,17 @@ body {
   text-align: center;
 }
 
-div {
-  line-height: 150px;
+header {
   vertical-align: middle;
+  line-height: 75px;
+}
+
+div, aside, footer {
+  vertical-align: middle;
+  line-height: 125px;
+}
+
+.ef-holder div, .gh-holder div {
+  vertical-align: middle;
+  line-height: 250px;
 }
